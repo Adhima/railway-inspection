@@ -28,6 +28,7 @@ if not cap.isOpened():
     exit()
 
 print("Memulai deteksi kendaraan...")
+print("Coba")
 
 while True:
     ret, frame = cap.read()
